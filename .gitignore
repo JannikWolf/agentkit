@@ -1,0 +1,46 @@
+# Node modules and build output
+node_modules/
+.next/
+out/
+
+# Environment variables
+.env
+.next-env.d.ts
+
+# OS and editor specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency locks
+package-lock.json
+yarn.lock
+
+# Compiled CSS & cache
+*.css.map
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+
+# Misc
+*.local
+*.swp
+
+# Generated files
+wallet_data.txt
+
+# Optional: ignore system and log files
+*.log
+*.pid
+*.seed
+*.tgz
+
+# Ignore static cache
+.cache/
